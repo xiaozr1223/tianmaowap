@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2017-03-31 16:59:01
 * @Last Modified by:   Administrator
-* @Last Modified time: 2017-04-02 06:51:35
+* @Last Modified time: 2017-04-11 16:46:57
 */
 *{
 	margin: 0;
@@ -21,7 +21,7 @@ img{
 .ssk{
 	width: 100%;
 	height: 1.3rem;
-	background: -webkit-linear-gradient(top,rgba(0,0,0,1),rgba(0.0.0.0.2));
+	background: #F9313E;
 	position: fixed;
 	top: 0;
 	box-sizing: border-box;
@@ -77,13 +77,14 @@ img{
 .ssk a{
 	display: block;
 	width: 0.75rem;
-	font-size: 0.32rem;
 	color: #FFFFFF;
 	float: right;
 	line-height: 1.3rem;
 	margin-right: 0.5rem;
 }
-
+.ssk a div{
+	font-size: 0.32rem;
+}
 
 .banner{
 	width: 100%;
@@ -181,32 +182,13 @@ img{
 	height: auto;
 	overflow: hidden;
 }
+#wz{
+	color: #FF2F2D;
+}
 
-.bq .title{
-	width: 100%;
-	height: 0.9rem;
-	text-align: center;
-}
-.bq .title span{
-	display: inline-block;
-	width: 1.02rem;
-	height: 0.02rem;
-	border-bottom: 1px solid #F6B7B7;
-	margin-bottom: 0.18rem;
-}
-.bq .title img{
-	display: inline-block;
-	width: 0.4rem;
-	height: auto;
-	float: none;
-}
-.bq .title p{
-	width: 1rem;
-	display: inline-block;
-	border-bottom: 0;
-	font-size: 0.30rem;
-	color: #FF2E2E;
-}
+
+
+
 
 .bq .tw{
 	width: 25%;
@@ -293,6 +275,17 @@ img{
 	width: 100%;
 	height: auto;
 }
+
+
+.bq .title .span{
+	background: #FF2F2D;
+}
+.bq .title .span1{
+	background: #FF2F2D;
+}
+
+
+
 
 
 
